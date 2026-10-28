@@ -6,6 +6,15 @@
 
 ---
 
+## 💎 The One-Sentence Core Idea (For All Judges, Faculty & Audience)
+
+> **"GramBandhan is an enterprise decentralized agro-fintech platform that rescues rural smallholder farmers from predatory 25–42% interest debt cycles by uniting Shariah-compliant Mudarabah profit-sharing, AI satellite NDVI and ground IoT proof-of-cultivation, and Base Sepolia blockchain milestone escrow with GAAP double-entry ledger settlement."**
+> 
+> * **বাংলায় সহজ সারসংক্ষেপ:**  
+>   *"গ্রামীণ বন্ধন হলো একটি ডিসেন্ট্রালাইজড কৃষি-ফিনটেক প্ল্যাটফর্ম, যা ক্ষুদ্র কৃষকদের সুদভিত্তিক ঋণের ফাঁদ থেকে মুক্ত করে শরীয়াহসম্মত মুদারাবাহ অংশীদারি, স্যাটেলাইট ও গ্রাউন্ড IoT দ্বারা সরাসরি ফসল যাচাই এবং ব্লকচেইন স্মার্ট কন্ট্রাক্ট এসক্রোর মাধ্যমে শতভাগ স্বচ্ছ ও ঝুঁকিমুক্ত অর্থায়ন নিশ্চিত করে।"*
+
+---
+
 ## ⏱️ Master Timing & Presentation Flow (Strict 10:00 Max)
 
 | Timestamp | Section | Core Action & Focus | Screen View / Target URL |
