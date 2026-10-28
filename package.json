@@ -2,7 +2,7 @@
   "name": "grambandhan-ecosystem",
   "private": true,
   "version": "2.0.0",
-  "description": "GramBandhan (গ্রামীণ বন্ধন) — Enterprise Shariah-Compliant Agro-Fintech, AI Risk Modeling & Rural Marketplace Monorepo",
+  "description": "GramBandhan (গ্রাম বন্ধন) — Enterprise Shariah-Compliant Agro-Fintech, AI Risk Modeling & Rural Marketplace Monorepo",
   "type": "module",
   "scripts": {
     "dev": "vite",

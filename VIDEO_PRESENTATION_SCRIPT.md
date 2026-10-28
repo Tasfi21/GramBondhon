@@ -1,4 +1,4 @@
-# 🎬 GramBandhan (গ্রামীণ বন্ধন) — 10-Minute Video Presentation Script
+# 🎬 GramBandhan (গ্রাম বন্ধন) — 10-Minute Video Presentation Script
 ### CSE Project Show Summer 26 | Team TORONGO_DHARA
 
 > **Core Evaluation Thesis to Answer:**  
@@ -11,7 +11,7 @@
 > **"GramBandhan is an enterprise decentralized agro-fintech platform that rescues rural smallholder farmers from predatory 25–42% interest debt cycles by uniting Shariah-compliant Mudarabah profit-sharing, AI satellite NDVI and ground IoT proof-of-cultivation, and Base Sepolia blockchain milestone escrow with GAAP double-entry ledger settlement."**
 > 
 > * **বাংলায় সহজ সারসংক্ষেপ:**  
->   *"গ্রামীণ বন্ধন হলো একটি ডিসেন্ট্রালাইজড কৃষি-ফিনটেক প্ল্যাটফর্ম, যা ক্ষুদ্র কৃষকদের সুদভিত্তিক ঋণের ফাঁদ থেকে মুক্ত করে শরীয়াহসম্মত মুদারাবাহ অংশীদারি, স্যাটেলাইট ও গ্রাউন্ড IoT দ্বারা সরাসরি ফসল যাচাই এবং ব্লকচেইন স্মার্ট কন্ট্রাক্ট এসক্রোর মাধ্যমে শতভাগ স্বচ্ছ ও ঝুঁকিমুক্ত অর্থায়ন নিশ্চিত করে।"*
+>   *"গ্রাম বন্ধন হলো একটি ডিসেন্ট্রালাইজড কৃষি-ফিনটেক প্ল্যাটফর্ম, যা ক্ষুদ্র কৃষকদের সুদভিত্তিক ঋণের ফাঁদ থেকে মুক্ত করে শরীয়াহসম্মত মুদারাবাহ অংশীদারি, স্যাটেলাইট ও গ্রাউন্ড IoT দ্বারা সরাসরি ফসল যাচাই এবং ব্লকচেইন স্মার্ট কন্ট্রাক্ট এসক্রোর মাধ্যমে শতভাগ স্বচ্ছ ও ঝুঁকিমুক্ত অর্থায়ন নিশ্চিত করে।"*
 
 ---
 
@@ -44,7 +44,7 @@
 * Point cursor to the main heading: *"Empowering Rural Growth Through Ethical Investment"*.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Respected faculty, honorable judges, and fellow engineers, welcome to the final presentation of **GramBandhan (গ্রামীণ বন্ধন)**, engineered by Team **TORONGO_DHARA**.
+> "Respected faculty, honorable judges, and fellow engineers, welcome to the final presentation of **GramBandhan (গ্রাম বন্ধন)**, engineered by Team **TORONGO_DHARA**.
 > 
 > In Bangladesh, over 40% of our national workforce is anchored in agriculture. Yet smallholder farmers face a devastating economic paradox. When seeking seasonal capital, traditional microfinance institutions charge predatory annual percentage rates between **25% to 42% APR**. When sudden flash floods or climate shocks destroy their harvest, the interest debt remains absolute—pushing rural producers into chronic insolvency, land repossession, and extreme poverty.
 > 
