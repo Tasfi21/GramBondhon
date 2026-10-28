@@ -13,9 +13,9 @@
 | **00:00 – 01:00** (1:00) | **1. Introduction & Formal Title** | 25–42% predatory debt crisis vs Shariah Mudarabah + Blockchain | `http://localhost:5173/` (Hero Section) |
 | **01:00 – 02:30** (1:30) | **2. Landing Page & UN SDG Alignment** | Walkthrough of Landing Page, 0% Riba model, UN SDGs (1, 2, 8, 9, 13) | `http://localhost:5173/` (Full Landing Page) |
 | **02:30 – 04:30** (2:00) | **3. "Invest Now" Flow & Blockchain Tracking** | Click Invest Now, ৳50,000 calculator, Base Sepolia escrow, 3-actor tracking | `investor_projects.html` & BaseScan |
-| **04:30 – 05:45** (1:15) | **4. AI Satellite NDVI Radar & Risk Engine** | Remote sensing vegetation index (0.78), weather oracle, Proof-of-Cultivation | `investor_airisk.html` |
+| **04:30 – 05:45** (1:15) | **4. AI Satellite NDVI Radar & Ground IoT Telemetry** | Remote sensing vegetation index (0.78) + Ground IoT soil/moisture/NPK probes | `investor_airisk.html` |
 | **05:45 – 06:45** (1:00) | **5. Farmer Portal & Village Marketplace** | Milestone harvest verification, direct Mandi store cutting 40% middlemen markup | `Farmer/farmer.html` & `marketplace.html` |
-| **06:45 – 07:45** (1:00) | **6. Surveillance Hub & Why Rust vs Spring Boot** | Live telemetry, Sentinel cluster, 25x–30x lower RAM, 0 GC pauses vs JVM | `http://localhost:3001/surveillance` |
+| **06:45 – 07:45** (1:00) | **6. Admin Console (Graphify) & Surveillance Hub** | D3 Graphify 250+ module topology, Sentinel cluster, Why Rust vs Spring Boot | `Admin/admin.html#/graphify` & `:3001/surveillance` |
 | **07:45 – 08:45** (1:00) | **7. Git Timeline & Team Contributions** | GitHub `muhtasim-cs/videogm`, commit log, 4 member roles | `https://github.com/muhtasim-cs/videogm` |
 | **08:45 – 09:45** (1:00) | **8. Live Automated Testing Execution** | Terminal run `npm test` live (26/26 passed), `TEST_CASES.md` report | VS Code Terminal + `TEST_CASES.md` |
 | **09:45 – 10:00** (0:15) | **9. Conclusion & Final Sign-Off** | Core thesis wrap-up, thanking faculty & evaluators | Homepage or Title Slide |
@@ -104,22 +104,31 @@
 
 ---
 
-### ⏱️ SECTION 4: AI SATELLITE NDVI RISK RADAR (04:30 – 05:45)
-**Objective:** Demonstrate how satellite telemetry replaces traditional bank collateral with programmatic "Proof-of-Cultivation".
+### ⏱️ SECTION 4: AI SATELLITE NDVI RADAR & GROUND IOT TELEMETRY (04:30 – 05:45)
+**Objective:** Demonstrate how satellite telemetry combined with physical ground IoT sensors replaces traditional collateral with programmatic "Proof-of-Cultivation".
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
 * **04:30:** Click on the **AI Risk Analysis** tab (`http://localhost:5173/investor_airisk.html`).
 * Highlight the live **NDVI Index gauge reading (e.g., 0.78 - Healthy Canopy)**.
-* Show the **Precipitation Radar**, soil moisture metrics, and agronomist inspection log.
+* Show the **Precipitation Radar**, and then highlight the **Ground IoT Sensor Feed** cards:
+  - Soil Moisture (38% Volumetric Water Content)
+  - Soil Temperature (24.2°C)
+  - Soil pH (6.4 - Optimal)
+  - NPK Nitrogen/Phosphorus/Potassium nutrient indicators
+* Show the agronomist milestone verification badge.
 
 #### 🗣️ Spoken Voiceover (English):
-> "A major challenge in rural financing is asymmetric information: how does an investor in Dhaka or London verify that crops are actually thriving in Bogura without costly on-site audits?
+> "A major challenge in agricultural financing is asymmetric information: how does an investor in Dhaka or London verify that crops are truly thriving in Bogura without costly on-site physical audits?
 > 
-> This is solved by our **AI Geospatial Risk Radar**. By integrating Sentinel satellite remote-sensing imagery, we compute the real-time **Normalized Difference Vegetation Index (NDVI)** across monitored farmland coordinates. 
+> GramBandhan solves this through a dual-telemetry layer: **AI Geospatial Remote Sensing paired with Ground IoT Sensor Nodes**.
 > 
-> An NDVI score above 0.7 indicates vigorous, healthy vegetative canopy. The system pairs this with meteorological precipitation radar and soil moisture sensors. If drought, flood, or pest stress is detected, the AI engine triggers early warning alerts before financial impairment happens. 
+> From above, we integrate Sentinel satellite imagery to compute the real-time **Normalized Difference Vegetation Index (NDVI)** across monitored coordinates. An NDVI score of 0.78 confirms vigorous, photosynthetically active canopy health.
 > 
-> This programmatic *Proof-of-Cultivation* replaces traditional physical collateral with verifiable scientific data, enabling unbanked farmers to qualify for capital based on their actual productivity."
+> But we don't stop in the sky. Deployed directly in the farmland soil, our **physical ground IoT sensor probes** stream continuous telemetry: soil moisture content, root-zone temperature, pH balance, and NPK nutrient levels. 
+> 
+> If ground sensors detect drought or nutrient depletion, or if satellite radar detects flash flood anomalies, the AI engine dispatches early warning alerts before financial impairment happens. 
+> 
+> Pairing macro-level satellite imagery with micro-level ground IoT data establishes immutable **Proof-of-Cultivation**—replacing traditional land collateral with real-time empirical science."
 
 ---
 
@@ -143,28 +152,30 @@
 
 ---
 
-### ⏱️ SECTION 6: SURVEILLANCE HUB & WHY RUST VS SPRING BOOT (06:45 – 07:45)
-**Objective:** Showcase enterprise backend telemetry and provide a sharp, technically superior justification for choosing Rust over Java Spring Boot.
+### ⏱️ SECTION 6: ADMIN CONSOLE (GRAPHIFY) & BACKEND SURVEILLANCE HUB (06:45 – 07:45)
+**Objective:** Showcase how administrators inspect codebase module topology via Graphify, monitor live backend surveillance telemetry, and justify choosing Rust over Spring Boot.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **06:45:** Open browser tab to `http://localhost:3001/surveillance`.
-* Point out:
-  - The live BST (GMT+6) clock and Node.js process telemetry (memory RSS, PID).
-  - The **Sentinel Cluster Status** (API Gateway, PostgreSQL 16, Redis BullMQ, Base Sepolia RPC).
-  - The **Live Inter-Role Event Bus** showing real-time messages between Field Officers, Farmers, and Investors.
-* Briefly show the Rust codebase in VS Code: `crates/gram-indexer/src/main.rs`.
+* **06:45:** Open browser tab to the **Admin Console** at `http://localhost:5173/Admin/admin.html#/graphify` (or show the Graphify view).
+  - Show the interactive D3.js **Real-Time Codebase Topology Graph (Graphify)** computed over 250+ AST-parsed modules.
+  - Highlight the interconnected clusters: controllers, services, database schema models, and smart contract RPC bridges.
+  - Explain that administrators use Graphify to verify module health, eliminate orphaned dependencies, and ensure architectural integrity across all subsystems.
+* **07:15:** Switch tab to `http://localhost:3001/surveillance`.
+  - Point out the live BST clock, active process PID, Node.js memory RSS, and Sentinel cluster status (API Gateway: 0.28ms latency, PostgreSQL 16, Redis BullMQ, Base Sepolia RPC).
+  - Scroll down to the **Live Inter-Role Event Bus** showing real-time messages between Field Officers, Farmers, and Investors with direct BaseScan transaction hashes.
+  - Briefly highlight the compiled Rust indexer (`crates/gram-indexer`).
 
 #### 🗣️ Spoken Voiceover (English):
-> "Next, we present our backend mission-control: the **GramBandhan Sentinel Surveillance and Telemetry Hub**, running live on port 3001.
+> "Next, let us enter the **Admin & Engineering Console**, where we manage platform governance through two mission-critical tools: **Graphify** and the **Sentinel Surveillance Hub**.
 > 
-> This operations console streams live process health, sub-millisecond API response latency, and continuously monitors our Sentinel nodes: our API Gateway, PostgreSQL 16 database, Redis task queues, and Base Sepolia blockchain RPC.
+> First, on screen is our **Real-Time Codebase Topology powered by Graphify**. Using AST parsing across more than 250 modules, Graphify constructs an interactive D3 force-directed dependency graph. Administrators use this live topology to verify that all microservices, Prisma database schemas, and smart contract RPC interfaces are properly connected with zero broken imports or orphaned nodes.
 > 
-> Below that, our **Live Inter-Role Event Bus** streams verified updates between Field Officers, Farmers, and Investors with direct cryptographic links to BaseScan.
+> Second, we switch to our **Sentinel Surveillance Console** running live on port 3001. It monitors backend health, memory RSS, and our **Live Inter-Role Event Bus**, which streams real-time field audits from agronomists directly to investors with cryptographic BaseScan links.
 > 
-> **Now, why did we choose Rust for our high-frequency blockchain indexer (`crates/gram-indexer`) instead of traditional Java Spring Boot?**
+> **Why did we build our high-frequency indexer in Rust (`crates/gram-indexer`) instead of Java Spring Boot?**
 > 
-> 1. **Resource Efficiency (25x to 30x Lower Memory)**: A standard Spring Boot application on the JVM consumes 400MB to 800MB of baseline RAM due to JVM runtime overhead, classloading, and garbage collector reserves. In contrast, our compiled native Rust binary consumes just **15 to 25 megabytes of RAM—a massive 25x to 30x reduction in memory overhead**.
-> 2. **Zero Garbage Collection (GC) Pauses**: In live blockchain event indexing and financial settlement, JVM 'Stop-The-World' GC pauses cause unpredictable latency spikes. Rust’s compile-time ownership model guarantees deterministic, **sub-millisecond execution (0.28ms latency)** with absolutely zero GC pauses.
+> 1. **25x to 30x Lower Memory Overhead**: A typical Spring Boot application on the JVM consumes 400MB to 800MB of baseline RAM due to JVM runtime overhead, classloading, and garbage collector reserves. In contrast, our compiled native Rust binary consumes just **15 to 25 megabytes of RAM—a 25x to 30x reduction in memory overhead**.
+> 2. **Zero Garbage Collection (GC) Pauses**: In live blockchain event indexing and financial settlement, JVM 'Stop-The-World' GC pauses cause unpredictable latency spikes. Rust’s compile-time ownership model guarantees deterministic, **sub-millisecond execution (0.28ms latency)** with zero GC pauses.
 > 3. **Fearless Concurrency & Zero Data Corruption**: In a multi-actor financial system, race conditions or null pointers could corrupt ledger balances. Rust eliminates concurrency bugs and memory hazards at compile time, guaranteeing bulletproof financial integrity."
 
 ---
@@ -238,8 +249,9 @@
    - Tab 4: `http://localhost:5173/investor_airisk.html` (AI Satellite NDVI)
    - Tab 5: `http://localhost:5173/Farmer/farmer.html` (Farmer Portal)
    - Tab 6: `http://localhost:5173/marketplace.html` (Village Marketplace)
-   - Tab 7: `http://localhost:3001/surveillance` (Backend Surveillance Hub)
-   - Tab 8: `https://github.com/muhtasim-cs/videogm` (GitHub Repo)
-   - Tab 9: VS Code (Terminal ready with `npm test`, open to `TEST_CASES.md`)
+   - Tab 7: `http://localhost:5173/Admin/admin.html#/graphify` (Admin Graphify Topology)
+   - Tab 8: `http://localhost:3001/surveillance` (Backend Surveillance Hub)
+   - Tab 9: `https://github.com/muhtasim-cs/videogm` (GitHub Repo)
+   - Tab 10: VS Code (Terminal ready with `npm test`, open to `TEST_CASES.md`)
 2. **Terminal Ready**: Keep the terminal opened in the root directory so typing `npm test` immediately shows the green test suite.
 3. **Pacing**: Speak smoothly and naturally. The script has been timed for an average talking speed of 130–140 words per minute, easily fitting within **9 minutes 45 seconds to 9 minutes 55 seconds**.
