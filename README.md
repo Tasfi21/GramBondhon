@@ -530,8 +530,8 @@ A foundational engineering decision was selecting **Rust (`crates/gram-indexer`)
 
 ### 🚀 Step 1: Clone and Inspect
 ```bash
-git clone https://github.com/muhtasim-cs/GRAMBONDHONE_by-team-TORONGO_DHARA.git
-cd GRAMBONDHONE_by-team-TORONGO_DHARA
+git clone https://github.com/Tasfi21/GramBondhon.git
+cd GramBondhon
 ```
 
 ---

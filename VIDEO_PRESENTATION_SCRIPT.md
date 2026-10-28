@@ -25,7 +25,7 @@
 | **04:30 – 05:45** (1:15) | **4. AI Satellite NDVI Radar & Ground IoT Telemetry** | Remote sensing vegetation index (0.78) + Ground IoT soil/moisture/NPK probes | `investor_airisk.html` |
 | **05:45 – 06:45** (1:00) | **5. Farmer Portal & Village Marketplace** | Milestone harvest verification, direct Mandi store cutting 40% middlemen markup | `Farmer/farmer.html` & `marketplace.html` |
 | **06:45 – 07:45** (1:00) | **6. Admin Console (Graphify) & Surveillance Hub** | D3 Graphify 250+ module topology, Sentinel cluster, Why Rust vs Spring Boot | `Admin/admin.html#/graphify` & `:3001/surveillance` |
-| **07:45 – 08:45** (1:00) | **7. Git Timeline & Team Contributions** | GitHub `muhtasim-cs/videogm`, commit log, 4 member roles | `https://github.com/muhtasim-cs/videogm` |
+| **07:45 – 08:45** (1:00) | **7. Git Timeline & Team Contributions** | GitHub `Tasfi21/GramBondhon`, commit log, 4 member roles | `https://github.com/Tasfi21/GramBondhon` |
 | **08:45 – 09:45** (1:00) | **8. Live Automated Testing Execution** | Terminal run `npm test` live (26/26 passed), `TEST_CASES.md` report | VS Code Terminal + `TEST_CASES.md` |
 | **09:45 – 10:00** (0:15) | **9. Conclusion & Final Sign-Off** | Core thesis wrap-up, thanking faculty & evaluators | Homepage or Title Slide |
 
@@ -193,12 +193,12 @@
 **Objective:** Highlight version control discipline, repository architecture, and distinct contributions of each team member.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **07:45:** Open browser tab to GitHub: `https://github.com/muhtasim-cs/videogm`.
+* **07:45:** Open browser tab to GitHub: `https://github.com/Tasfi21/GramBondhon`.
 * Show the repository home, commits history, and clean monorepo folder layout (`apps/web`, `backend`, `contracts`, `crates`, `tests`).
 * Show contributor summary slide or terminal git log.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Engineering an ecosystem of this magnitude requires strict version control discipline. Our entire monorepo is hosted publicly on GitHub at `muhtasim-cs/videogm`. 
+> "Engineering an ecosystem of this magnitude requires strict version control discipline. Our entire monorepo is hosted publicly on GitHub at `Tasfi21/GramBondhon`. 
 > 
 > Throughout the semester, Team **TORONGO_DHARA** maintained a modular Git workflow with continuous code reviews. Here is the individual contribution breakdown of our four members:
 > 
@@ -260,7 +260,7 @@
    - Tab 6: `http://localhost:5173/marketplace.html` (Village Marketplace)
    - Tab 7: `http://localhost:5173/Admin/admin.html#/graphify` (Admin Graphify Topology)
    - Tab 8: `http://localhost:3001/surveillance` (Backend Surveillance Hub)
-   - Tab 9: `https://github.com/muhtasim-cs/videogm` (GitHub Repo)
+   - Tab 9: `https://github.com/Tasfi21/GramBondhon` (GitHub Repo)
    - Tab 10: VS Code (Terminal ready with `npm test`, open to `TEST_CASES.md`)
 2. **Terminal Ready**: Keep the terminal opened in the root directory so typing `npm test` immediately shows the green test suite.
 3. **Pacing**: Speak smoothly and naturally. The script has been timed for an average talking speed of 130–140 words per minute, easily fitting within **9 minutes 45 seconds to 9 minutes 55 seconds**.
