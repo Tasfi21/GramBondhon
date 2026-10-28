@@ -36,7 +36,9 @@
 #### 🗣️ Spoken Voiceover (English):
 > "Respected faculty, judges, and fellow engineers, welcome to the presentation of **GramBandhan (গ্রামীণ বন্ধন)**, developed by Team **TORONGO_DHARA**.
 > 
-> In Bangladesh, over 40% of our population relies on agriculture. Yet, smallholder farmers remain trapped in a crippling economic cycle. Conventional microfinance institutions charge predatory interest rates between **25% to 42% APR**. When climate disasters or floods strike, the crops are destroyed, but the interest debt remains—forcing farmers into perpetual insolvency and land loss. On the other side, ethical investors seeking genuine Shariah-compliant opportunities lack transparency and trust.
+> Imagine a world where every grain of rice, every tomato, and every harvest can be traced back to its origin—the farm, the field, and even the date it was harvested. This is where blockchain technology transforms agriculture.
+> 
+> In Bangladesh, over 40% of our population relies on agriculture. Yet smallholder farmers remain trapped in a crippling economic cycle where conventional microfinance institutions charge predatory interest rates between **25% to 42% APR**. When climate disasters or floods strike, crops are destroyed, but the interest debt persists—forcing farmers into perpetual insolvency and land loss.
 > 
 > **What problem did we solve?** We eliminated predatory debt through **GramBandhan**—an enterprise decentralized agro-fintech platform that unites Shariah-compliant **Mudarabah equity sharing**, AI-driven **satellite NDVI risk modeling**, and **Base Sepolia blockchain escrow contracts**. Instead of taking interest-bearing loans, farmers receive zero-interest milestone capital, sharing real harvest profits with conscious investors."
 
@@ -100,13 +102,15 @@
 * Open the smart contract verification on BaseScan or show code snippet of `contracts/AgriPlatformEscrow.sol`.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Financial integrity is guaranteed through two robust accounting layers: our **Base Sepolia Smart Contract Escrow** and a **GAAP-compliant Double-Entry Ledger Engine**.
+> "Financial integrity and traceability are guaranteed through our **Base Sepolia Smart Contract Escrow** and **GAAP-compliant Double-Entry Ledger Engine**.
 > 
-> On screen is our redesigned Capital Outflow and Return Inflow Ledger. Every single Taka deposited into a campaign is cryptographically mapped to our verified Solidity smart contract, `AgriPlatformEscrow`, deployed on the **Base Sepolia Ethereum Layer-2 network** at chain ID `84532`. 
+> Simply put, blockchain acts as a shared digital ledger. Every transaction or event is recorded in a block cryptographically linked to the previous one, creating a secure, tamper-resistant chain. In agriculture, every phase of a food product’s journey—from seed planting and harvesting to processing, transport, and final marketplace sale—is recorded digitally.
 > 
-> Capital is locked in escrow and cannot be withdrawn unilaterally. Only when platform administrators, agronomists, and IoT sensor triggers verify that a milestone has been achieved, the smart contract executes an immutable disbursement. 
+> On screen is our redesigned Capital Outflow and Return Inflow Ledger. Every single Taka committed to a campaign is cryptographically mapped to our verified Solidity smart contract, `AgriPlatformEscrow`, deployed on the **Base Sepolia Ethereum Layer-2 network** at chain ID `84532`. 
 > 
-> In the backend, our transactional database maintains strict double-entry ledger invariants: every debit entry is mathematically balanced by an equal credit entry, maintaining a guaranteed **0.00 Taka discrepancy**. This produces auditable, institutional-grade financial statements that completely eliminate embezzlement and ghost projects."
+> Capital is locked in escrow and cannot be withdrawn unilaterally. Only when platform administrators, agronomists, and IoT sensor triggers verify that a cultivation milestone is complete, the smart contract executes an immutable disbursement. 
+> 
+> In the backend, our transactional database maintains strict double-entry ledger invariants: every debit entry is mathematically balanced by an equal credit entry, maintaining a guaranteed **0.00 Taka discrepancy**. This produces institutional-grade transparency that completely eliminates ghost projects."
 
 ---
 
