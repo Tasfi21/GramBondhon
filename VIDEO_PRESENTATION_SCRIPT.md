@@ -6,18 +6,19 @@
 
 ---
 
-## ⏱️ Master Timing & Section Overview (Strict 10:00 Max)
+## ⏱️ Master Timing & Presentation Flow (Strict 10:00 Max)
 
-| Timestamp | Section | Primary Focus | Screen View / Target URL |
+| Timestamp | Section | Core Action & Focus | Screen View / Target URL |
 | :--- | :--- | :--- | :--- |
-| **00:00 – 01:00** (1:00) | **1. Introduction & Problem Statement** | The 25–42% predatory debt trap vs. Shariah Mudarabah + Blockchain | `http://localhost:5173/` (Homepage & Hero) |
-| **01:00 – 03:00** (2:00) | **2A. Investor Hub & AI Risk Radar** | 30 Halal Campaigns, 65/35 profit model, Satellite NDVI radar | `http://localhost:5173/investor_projects.html` & `investor_airisk.html` |
-| **03:00 – 04:30** (1:30) | **2B. Farmer Portal & Village Marketplace** | Zero-interest capital, harvest milestones, direct mandi store | `http://localhost:5173/Farmer/farmer.html` & `marketplace.html` |
-| **04:30 – 06:00** (1:30) | **2C. Blockchain Escrow & Double-Entry Ledger** | Base Sepolia (`AgriPlatformEscrow.sol`), GAAP double-entry ledger | `http://localhost:5173/investor_financials.html` & BaseScan |
-| **06:00 – 07:30** (1:30) | **2D. Mission-Control Surveillance Hub** | Real-time process telemetry, Sentinel nodes, Inter-role event bus | `http://localhost:3001/surveillance` |
-| **07:30 – 08:30** (1:00) | **3. Git Timeline & Team Contributions** | GitHub repo `muhtasim-cs/videogm`, commit log, 4 member roles | `https://github.com/muhtasim-cs/videogm` & Git graph |
-| **08:30 – 09:45** (1:15) | **4. Live Testing Demonstration** | Run `npm test` live in terminal, 26/26 tests passing, `TEST_CASES.md` | VS Code Terminal + `TEST_CASES.md` |
-| **09:45 – 10:00** (0:15) | **5. Conclusion & Final Sign-Off** | Societal impact, UN SDGs, thanking teachers & evaluators | `http://localhost:5173/` or Final Title Slide |
+| **00:00 – 01:00** (1:00) | **1. Introduction & Formal Title** | 25–42% predatory debt crisis vs Shariah Mudarabah + Blockchain | `http://localhost:5173/` (Hero Section) |
+| **01:00 – 02:30** (1:30) | **2. Landing Page & UN SDG Alignment** | Walkthrough of Landing Page, 0% Riba model, UN SDGs (1, 2, 8, 9, 13) | `http://localhost:5173/` (Full Landing Page) |
+| **02:30 – 04:30** (2:00) | **3. "Invest Now" Flow & Blockchain Tracking** | Click Invest Now, ৳50,000 calculator, Base Sepolia escrow, 3-actor tracking | `investor_projects.html` & BaseScan |
+| **04:30 – 05:45** (1:15) | **4. AI Satellite NDVI Radar & Risk Engine** | Remote sensing vegetation index (0.78), weather oracle, Proof-of-Cultivation | `investor_airisk.html` |
+| **05:45 – 06:45** (1:00) | **5. Farmer Portal & Village Marketplace** | Milestone harvest verification, direct Mandi store cutting 40% middlemen markup | `Farmer/farmer.html` & `marketplace.html` |
+| **06:45 – 07:45** (1:00) | **6. Surveillance Hub & Why Rust vs Spring Boot** | Live telemetry, Sentinel cluster, 25x–30x lower RAM, 0 GC pauses vs JVM | `http://localhost:3001/surveillance` |
+| **07:45 – 08:45** (1:00) | **7. Git Timeline & Team Contributions** | GitHub `muhtasim-cs/videogm`, commit log, 4 member roles | `https://github.com/muhtasim-cs/videogm` |
+| **08:45 – 09:45** (1:00) | **8. Live Automated Testing Execution** | Terminal run `npm test` live (26/26 passed), `TEST_CASES.md` report | VS Code Terminal + `TEST_CASES.md` |
+| **09:45 – 10:00** (0:15) | **9. Conclusion & Final Sign-Off** | Core thesis wrap-up, thanking faculty & evaluators | Homepage or Title Slide |
 
 ---
 
@@ -26,206 +27,219 @@
 ---
 
 ### ⏱️ SECTION 1: INTRODUCTION & PROBLEM STATEMENT (00:00 – 01:00)
-**Goal:** Hook the faculty immediately, explain the societal problem, and present GramBandhan's core value proposition.
+**Objective:** Capture judges' attention immediately, define the national agricultural crisis, and state the formal project title.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
 * **00:00:** Browser opens on `http://localhost:5173/` (Homepage).
-* Slowly scroll down past the continuous 2.0s agricultural carousel hero, showing *"Halal Agricultural Investment & Rural Empowerment"*.
-* Highlight the dual track: *Rabb-ul-Mal (Investors)* and *Mudarib (Rural Farmers)*.
+* The 2.0s continuous agricultural slideshow cycles smoothly across authentic Bangladeshi fields.
+* Point cursor to the main heading: *"Empowering Rural Growth Through Ethical Investment"*.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Respected faculty, judges, and fellow engineers, welcome to the presentation of **GramBandhan (গ্রামীণ বন্ধন)**, developed by Team **TORONGO_DHARA**.
+> "Respected faculty, honorable judges, and fellow engineers, welcome to the final presentation of **GramBandhan (গ্রামীণ বন্ধন)**, engineered by Team **TORONGO_DHARA**.
 > 
-> Imagine a world where every grain of rice, every tomato, and every harvest can be traced back to its origin—the farm, the field, and even the date it was harvested. This is where blockchain technology transforms agriculture.
+> In Bangladesh, over 40% of our national workforce is anchored in agriculture. Yet smallholder farmers face a devastating economic paradox. When seeking seasonal capital, traditional microfinance institutions charge predatory annual percentage rates between **25% to 42% APR**. When sudden flash floods or climate shocks destroy their harvest, the interest debt remains absolute—pushing rural producers into chronic insolvency, land repossession, and extreme poverty.
 > 
-> In Bangladesh, over 40% of our population relies on agriculture. Yet smallholder farmers remain trapped in a crippling economic cycle where conventional microfinance institutions charge predatory interest rates between **25% to 42% APR**. When climate disasters or floods strike, crops are destroyed, but the interest debt persists—forcing farmers into perpetual insolvency and land loss.
+> **What problem did we solve?** We eliminated predatory debt by building **GramBandhan**—an enterprise decentralized agro-fintech ecosystem that unifies Islamic **Mudarabah equity financing**, AI-driven **satellite NDVI risk modeling**, and **Base Sepolia blockchain smart contracts**. Instead of borrowing high-interest debt, farmers receive zero-interest milestone capital, sharing actual crop harvest profits with ethical investors.
 > 
-> **What problem did we solve?** We eliminated predatory debt through **GramBandhan**—an enterprise decentralized agro-fintech platform that unites Shariah-compliant **Mudarabah equity sharing**, AI-driven **satellite NDVI risk modeling**, and **Base Sepolia blockchain escrow contracts**. Instead of taking interest-bearing loans, farmers receive zero-interest milestone capital, sharing real harvest profits with conscious investors.
-> 
-> Formally, our project is titled: *"GramBandhan: A Decentralized Milestone-Escrow and Double-Entry Ledger Framework for Transparent Agricultural Finance and Automated Profit Settlement."*"
+> Formally, our project is titled:  
+> **'GramBandhan: A Decentralized Milestone-Escrow and Double-Entry Ledger Framework for Transparent Agricultural Finance and Automated Profit Settlement.'**"
 
 ---
 
-### ⏱️ SECTION 2: IMPORTANT SYSTEM FEATURES (01:00 – 07:30)
-**Goal:** Walk through the major innovations in depth, skimming basic CRUD forms to focus on technological depth.
-
----
-
-#### 🌟 2A. Investor Portal, Mudarabah Models & AI Satellite Risk Radar (01:00 – 03:00)
+### ⏱️ SECTION 2: LANDING PAGE & UN SDG ALIGNMENT (01:00 – 02:30)
+**Objective:** Walk through the public landing page and prove how GramBandhan systematically advances the United Nations Sustainable Development Goals.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **01:00:** Click into `http://localhost:5173/investor_projects.html`.
-* Show the active verified campaigns (e.g., *Bogura Organic Potato Cluster*, *Sylhet Aromatic Rice*, *Kushtia Sesame*).
-* Click on **"Calculate Returns"** modal: slide the investment slider to ৳50,000, show the expected 65/35 profit distribution.
-* **02:00:** Switch tab to `http://localhost:5173/investor_airisk.html`.
-* Point to the live **AI Satellite Remote Sensing (NDVI Index: 0.78)**, soil moisture telemetry, and meteorological radar graphs.
+* **01:00:** Slowly scroll down the Landing Page (`http://localhost:5173/`).
+* Hover over the **"Halal Investment Reimagined"** spotlight section:
+  - Highlight the badges: **"0% Interest (Riba)"** and **"100% Asset-Backed"**.
+* Scroll further to show the **Dual-Track Workflow** (*Rabb-ul-Mal Investors* and *Mudarib Rural Farmers*).
+* Point to the active project cards and SDG impact indicators.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Let us examine our first core innovation: the **Investor Hub and AI Risk Engine**.
+> "Let us examine our public landing page. GramBandhan is designed from the ground up for radical transparency, pairing modern fintech aesthetics with accessibility.
 > 
-> As an investor logs in, they explore over 30 verified agricultural campaigns across Bangladesh. Each project strictly adheres to **AAOIFI Shariah Standard No. 13 for Mudarabah**. Notice here: capital is not treated as a guaranteed loan. Instead, profits are distributed according to a pre-agreed ratio—**65% directly to the rural producer and 35% to the investor**. 
+> As you can see in our spotlight card, our financial engine strictly enforces **0% Riba (Interest-Free)** transactions. Every investment is 100% backed by tangible biological and agricultural assets—such as seed cohorts, organic fertilizer, and verified crop yields.
 > 
-> Our interactive Investment Calculator transparently demonstrates projected seasonal returns and capital recovery cycles.
+> Crucially, our architecture is directly aligned with five **United Nations Sustainable Development Goals (SDGs)**:
 > 
-> But how do investors trust a farmer located hundreds of kilometers away without physical audits? 
-> 
-> This brings us to our **AI Geospatial Risk Radar**. By integrating Sentinel satellite data, we monitor the **Normalized Difference Vegetation Index (NDVI)** and meteorological precipitation indicators in real time. If satellite imagery detects crop stress or drought anomalies, the platform flags early warning indicators before capital impairment occurs. This programmatic *Proof-of-Cultivation* replaces traditional banking collateral with empirical data."
+> 1. **SDG 1: No Poverty** — By eliminating predatory compound interest, we break the multi-generational debt trap for rural smallholders.
+> 2. **SDG 2: Zero Hunger** — By channeling institutional and retail capital directly to grain, potato, and mustard farmers, we expand national food production.
+> 3. **SDG 8: Decent Work & Economic Growth** — Under our AAOIFI Standard 13 Mudarabah model, 65% of net profits go directly to the rural farmer and cottage artisan, ensuring fair labor compensation.
+> 4. **SDG 9: Industry, Innovation & Infrastructure** — We introduce Web3 smart contract milestone infrastructure and automated financial ledgers to rural Bangladesh.
+> 5. **SDG 13: Climate Action** — Our integrated remote-sensing satellites monitor climate risks and vegetative stress in real time, protecting investments before climate disasters lead to financial collapse."
 
 ---
 
-#### 🌾 2B. Rural Producer Workspace & Village Marketplace (03:00 – 04:30)
+### ⏱️ SECTION 3: "INVEST NOW" FLOW & BLOCKCHAIN ESCROW TRACKING (02:30 – 04:30)
+**Objective:** Execute the core investor journey from CTA click to blockchain settlement, clarifying that blockchain enforces investor-farmer-admin profit sharing and milestone tracking.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **03:00:** Open `http://localhost:5173/Farmer/farmer.html`.
-* Show the farmer dashboard: active milestone progress bars (Seed sowing ➔ Irrigation ➔ Harvesting), interest-free capital disbursement status.
-* **03:45:** Open `http://localhost:5173/marketplace.html`.
-* Type *"Mustard"* or *"Rice"* in the instant search bar, filter by category chip, add a product to the cart drawer, and show the bKash/Nagad checkout interface.
+* **02:30:** Scroll back to the hero section or project showcase on the landing page, and click **"Become an Investor"** (or click **"Investor Projects"** in the navbar).
+* Page routes to `http://localhost:5173/investor_projects.html`.
+* Show the directory of 30 verified campaigns. Hover over **"Bogura Organic Potato Cluster"** and **"Sylhet Aromatic Rice"**.
+* Click the **"Calculate Returns"** / **"Invest Now"** button.
+* In the modal, slide the investment amount to **৳ 50,000**.
+* Point out the return projection: 
+  - Shariah profit-sharing ratio: **65% to Farmer (Mudarib) / 35% to Investor (Rabb-ul-Mal)**.
+  - Estimated net dividend and milestone timeline.
+* **03:30:** Navigate to `http://localhost:5173/investor_financials.html` to show the **2×2 Capital Outflow & Return Inflow Ledger**.
+* Show the smart contract verification on BaseScan or show code snippet of `contracts/AgriPlatformEscrow.sol`.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Next, let us look at the other side of the ecosystem: the **Farmer and Rural Artisan Workspace**.
+> "Now, let us experience the **Invest Now Flow** and see how blockchain is applied in GramBandhan.
 > 
-> In the Farmer Portal, rural producers submit interest-free project applications. Instead of receiving a lump sum that could be mismanaged, funding is unlocked in strict cryptographic milestones—such as soil preparation, organic fertilization, and harvesting. The farmer uploads photo verification and field sensor readings directly from their smartphone.
+> Clicking 'Become an Investor' brings us directly into our verified project directory. An investor can explore over 30 verified agricultural campaigns across Bangladesh. Let us select the **Bogura Organic Potato Cluster**.
 > 
-> Furthermore, traditional farmers lose 35% to 45% of their harvest value to middlemen syndicates at wholesale hubs. To solve this, GramBandhan integrates a full-stack **Direct-to-Consumer Village Marketplace**. 
+> Opening the Investment Calculator, when an investor commits ৳50,000, our algorithmic engine calculates the exact Mudarabah profit projection: **65% of profits stay with the rural producer, while 35% is distributed to the investor**.
 > 
-> Featuring over 100 authentic Bangladeshi agro-handicraft commodities, urban consumers can purchase cold-pressed mustard oil, Rajshahi mangoes, and Nakshi Kantha directly in Taka. The marketplace includes instant debounce search, real-time inventory management, and local MFS checkout via bKash and Nagad. This passes maximum commercial surplus directly back to village producers."
+> **How does blockchain empower this workflow?**  
+> To be clear, blockchain in GramBandhan is not merely for food tracking—it serves as the **decentralized settlement, milestone-escrow, and profit-sharing transaction layer among three key actors: the Investor, the Farmer, and the Platform Admin**.
+> 
+> 1. **The Investor (Rabb-ul-Mal)**: Commits capital which is locked cryptographically into our `AgriPlatformEscrow` Solidity smart contract on the **Base Sepolia Layer-2 network** (Chain ID `84532`). The funds cannot be misappropriated or withdrawn arbitrarily.
+> 2. **The Farmer (Mudarib)**: Receives capital disbursements only upon verified field milestones—such as seed germination, irrigation, and final harvesting.
+> 3. **The Platform Admin & Agronomist**: Acts as a cryptographic validator. Once satellite feeds and field officer audits verify that a milestone is completed, the escrow contract automatically executes an immutable fund release.
+> 
+> Every payment commitment, whether through bKash, Nagad, or Web3 wallet, generates an on-chain transaction hash verifiable on BaseScan. In the backend, our transactional database maintains a **GAAP-compliant double-entry ledger** where every debit matches an equal credit, guaranteeing **zero financial leakage and ৳0.00 discrepancy**."
 
 ---
 
-#### ⛓️ 2C. Base Sepolia Blockchain Escrow & Double-Entry Ledger (04:30 – 06:00)
+### ⏱️ SECTION 4: AI SATELLITE NDVI RISK RADAR (04:30 – 05:45)
+**Objective:** Demonstrate how satellite telemetry replaces traditional bank collateral with programmatic "Proof-of-Cultivation".
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **04:30:** Navigate to `http://localhost:5173/investor_financials.html`.
-* Show the redesigned **2×2 Capital Outflow & Return Inflow Ledger**:
-  - Stage 1: bKash Escrow Deposit
-  - Stage 2: Milestone Field Disbursement
-  - Stage 3: Mandi Harvest Revenue
-  - Stage 4: Bank BEFTN Dividend Settlement
-* Open the smart contract verification on BaseScan or show code snippet of `contracts/AgriPlatformEscrow.sol`.
+* **04:30:** Click on the **AI Risk Analysis** tab (`http://localhost:5173/investor_airisk.html`).
+* Highlight the live **NDVI Index gauge reading (e.g., 0.78 - Healthy Canopy)**.
+* Show the **Precipitation Radar**, soil moisture metrics, and agronomist inspection log.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Financial integrity and traceability are guaranteed through our **Base Sepolia Smart Contract Escrow** and **GAAP-compliant Double-Entry Ledger Engine**.
+> "A major challenge in rural financing is asymmetric information: how does an investor in Dhaka or London verify that crops are actually thriving in Bogura without costly on-site audits?
 > 
-> Simply put, blockchain acts as a shared digital ledger. Every transaction or event is recorded in a block cryptographically linked to the previous one, creating a secure, tamper-resistant chain. In agriculture, every phase of a food product’s journey—from seed planting and harvesting to processing, transport, and final marketplace sale—is recorded digitally.
+> This is solved by our **AI Geospatial Risk Radar**. By integrating Sentinel satellite remote-sensing imagery, we compute the real-time **Normalized Difference Vegetation Index (NDVI)** across monitored farmland coordinates. 
 > 
-> On screen is our redesigned Capital Outflow and Return Inflow Ledger. Every single Taka committed to a campaign is cryptographically mapped to our verified Solidity smart contract, `AgriPlatformEscrow`, deployed on the **Base Sepolia Ethereum Layer-2 network** at chain ID `84532`. 
+> An NDVI score above 0.7 indicates vigorous, healthy vegetative canopy. The system pairs this with meteorological precipitation radar and soil moisture sensors. If drought, flood, or pest stress is detected, the AI engine triggers early warning alerts before financial impairment happens. 
 > 
-> Capital is locked in escrow and cannot be withdrawn unilaterally. Only when platform administrators, agronomists, and IoT sensor triggers verify that a cultivation milestone is complete, the smart contract executes an immutable disbursement. 
-> 
-> In the backend, our transactional database maintains strict double-entry ledger invariants: every debit entry is mathematically balanced by an equal credit entry, maintaining a guaranteed **0.00 Taka discrepancy**. This produces institutional-grade transparency that completely eliminates ghost projects."
+> This programmatic *Proof-of-Cultivation* replaces traditional physical collateral with verifiable scientific data, enabling unbanked farmers to qualify for capital based on their actual productivity."
 
 ---
 
-#### 🛡️ 2D. Enterprise Backend Surveillance & Threat Telemetry Hub (06:00 – 07:30)
+### ⏱️ SECTION 5: FARMER PORTAL & DIRECT VILLAGE MARKETPLACE (05:45 – 06:45)
+**Objective:** Demonstrate producer empowerment and how the direct marketplace bypasses exploitative middleman markups.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **06:00:** Navigate to `http://localhost:3001/surveillance`.
-* Hover over the real-time live clock (BST GMT+6), the active server PID, Node.js version, and live memory RSS meter.
-* Click **"Refresh Diagnostics"** to demonstrate live polling.
-* Show the **Sentinel Cluster status**: API Gateway (Healthy, 0.28ms latency), PostgreSQL 16 Node, Redis BullMQ Queue, and Base Sepolia RPC.
-* Scroll to the **Inter-Role Connected Characters Event Bus**: show live logs streaming between Field Officers, Farmers, and Investors.
-* Click on **"Explore BaseScan"** link to demonstrate live EVM testnet explorer connectivity.
-* Briefly highlight the Rust high-performance engine in the repository (`crates/gram-indexer`) and the memory stats on the surveillance dashboard.
+* **05:45:** Open `http://localhost:5173/Farmer/farmer.html`.
+* Show the Farmer dashboard: active project progress bars, interest-free capital disbursement status, and milestone photo submission.
+* **06:15:** Switch to `http://localhost:5173/marketplace.html`.
+* Type *"Mustard"* in the instant search autocomplete, filter by category chip, add cold-pressed oil to cart, and open the slide-out cart drawer showing bKash/Nagad checkout.
 
 #### 🗣️ Spoken Voiceover (English):
-> "Now, we showcase our backend operations: the **GramBandhan Sentinel Surveillance and Telemetry Hub**, running live on port 3001.
+> "On the producer's end, the **Farmer Management Portal** gives rural growers full visibility over their interest-free funding stages. Farmers upload harvest progress logs and sensor readings directly from their mobile devices.
 > 
-> This is a dedicated mission-control console engineered for DevOps and administrative compliance. It streams live telemetry directly from our microservice process, including CPU allocation, memory RSS, and sub-millisecond API response latency.
+> Furthermore, traditional Bangladeshi farmers lose **35% to 45% of their produce value** to middleman syndicates at wholesale Mandis. 
 > 
-> As you can see in the Sentinel Nodes panel, the system continuously health-checks our core infrastructure: our API Gateway, PostgreSQL 16 database, Redis distributed task queues, and Base Sepolia blockchain RPC node.
+> To solve this, GramBandhan integrates a full-stack **Direct-to-Consumer Village Marketplace** featuring over 100 authentic Bangladeshi agricultural and handicraft products priced transparently in Taka. 
 > 
-> **Why did we build our high-frequency blockchain indexer in Rust instead of traditional Java Spring Boot?**
-> - First, **Resource Efficiency**: A typical Spring Boot application on the JVM requires 400MB to 800MB of baseline RAM due to JVM runtime overhead, classloading, and garbage collector heap reservation. In contrast, our compiled Rust binary (`gram-indexer` using Paradigm's Alloy and Tokio) runs in native machine code, consuming just **15 to 25 megabytes of RAM—delivering a massive 25x to 30x reduction in memory footprint**.
-> - Second, **Zero Garbage Collection Pauses**: In financial settlement and live blockchain event streaming, JVM 'Stop-The-World' GC pauses cause unpredictable latency spikes. Rust's compile-time ownership model guarantees deterministic, sub-millisecond execution (0.28ms latency) with zero GC pauses.
-> - Third, **Memory Safety without Concurrency Overhead**: Rust's strict compiler eliminates race conditions and null-pointer hazards at compile time, guaranteeing that our double-entry ledger calculations and on-chain event listeners operate with zero data corruption.
-> 
-> Below that is our **Live Inter-Role Event Bus**. Whenever a field officer validates a crop milestone in Bogura, or an investor commits capital from Dhaka, the event is cryptographically dispatched across all connected roles with zero downtime, linked directly to BaseScan."
+> Urban consumers can purchase organic mustard oil, Rajshahi mangoes, and Nakshi Kantha using instant search and local mobile financial services like bKash and Nagad. By connecting consumers directly with producers, we retain the commercial surplus within village communities."
 
 ---
 
-### ⏱️ SECTION 3: GIT TIMELINE & TEAM MEMBER CONTRIBUTIONS (07:30 – 08:30)
-**Goal:** Meet the supervisor's exact rubric by showcasing version control discipline, repository timeline, and each member's specific engineering contributions.
+### ⏱️ SECTION 6: SURVEILLANCE HUB & WHY RUST VS SPRING BOOT (06:45 – 07:45)
+**Objective:** Showcase enterprise backend telemetry and provide a sharp, technically superior justification for choosing Rust over Java Spring Boot.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **07:30:** Open browser tab to GitHub: `https://github.com/muhtasim-cs/videogm`.
-* Show the repository home, commits history, branches, and clean monorepo folder layout (`apps/web`, `backend`, `contracts`, `tests`).
-* Open `git log --graph --oneline` in terminal or show a neat contributor summary slide.
+* **06:45:** Open browser tab to `http://localhost:3001/surveillance`.
+* Point out:
+  - The live BST (GMT+6) clock and Node.js process telemetry (memory RSS, PID).
+  - The **Sentinel Cluster Status** (API Gateway, PostgreSQL 16, Redis BullMQ, Base Sepolia RPC).
+  - The **Live Inter-Role Event Bus** showing real-time messages between Field Officers, Farmers, and Investors.
+* Briefly show the Rust codebase in VS Code: `crates/gram-indexer/src/main.rs`.
 
 #### 🗣️ Spoken Voiceover (English):
-> "A project of this scale requires strict software engineering discipline and modular version control. Our entire monorepo is hosted publicly on GitHub at `muhtasim-cs/videogm`.
+> "Next, we present our backend mission-control: the **GramBandhan Sentinel Surveillance and Telemetry Hub**, running live on port 3001.
 > 
-> Over the course of the semester, our team, **TORONGO_DHARA**, maintained an organized Git development workflow with continuous branch integration and automated linting. Here is the contribution breakdown of our team:
+> This operations console streams live process health, sub-millisecond API response latency, and continuously monitors our Sentinel nodes: our API Gateway, PostgreSQL 16 database, Redis task queues, and Base Sepolia blockchain RPC.
 > 
-> 1. **Muhtasim (Lead Software Architect & Backend Engineer)**: Architected the monorepo structure, built the NestJS and Express REST microservices, engineered the dual JWT and Web3 nonce authentication system, wrote and deployed the Base Sepolia Solidity smart contracts, built the Surveillance Hub, and created our automated 26-point test runner.
-> 2. **MD. Jahidul Islam Jony (Agricultural Producer / Domain & Operations Lead)**: Modeled the Shariah-compliant Mudarabah mathematical formulas under AAOIFI Standard 13, designed the agricultural crop lifecycle parameters for Bogura potato and Sylhet rice cohorts, and formulated the satellite NDVI risk thresholds.
-> 3. **Shamia Akhter Tasfi (Frontend Lead & UI/UX Architect)**: Designed our comprehensive multi-portal user interface using modern responsive CSS, Plus Jakarta Sans typography, built the verified 30-project directory, interactive return calculators, village marketplace with real-time cart drawer, and the Bondhon AI Assistant.
+> Below that, our **Live Inter-Role Event Bus** streams verified updates between Field Officers, Farmers, and Investors with direct cryptographic links to BaseScan.
+> 
+> **Now, why did we choose Rust for our high-frequency blockchain indexer (`crates/gram-indexer`) instead of traditional Java Spring Boot?**
+> 
+> 1. **Resource Efficiency (25x to 30x Lower Memory)**: A standard Spring Boot application on the JVM consumes 400MB to 800MB of baseline RAM due to JVM runtime overhead, classloading, and garbage collector reserves. In contrast, our compiled native Rust binary consumes just **15 to 25 megabytes of RAM—a massive 25x to 30x reduction in memory overhead**.
+> 2. **Zero Garbage Collection (GC) Pauses**: In live blockchain event indexing and financial settlement, JVM 'Stop-The-World' GC pauses cause unpredictable latency spikes. Rust’s compile-time ownership model guarantees deterministic, **sub-millisecond execution (0.28ms latency)** with absolutely zero GC pauses.
+> 3. **Fearless Concurrency & Zero Data Corruption**: In a multi-actor financial system, race conditions or null pointers could corrupt ledger balances. Rust eliminates concurrency bugs and memory hazards at compile time, guaranteeing bulletproof financial integrity."
+
+---
+
+### ⏱️ SECTION 7: GIT TIMELINE & TEAM MEMBER CONTRIBUTIONS (07:45 – 08:45)
+**Objective:** Highlight version control discipline, repository architecture, and distinct contributions of each team member.
+
+#### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
+* **07:45:** Open browser tab to GitHub: `https://github.com/muhtasim-cs/videogm`.
+* Show the repository home, commits history, and clean monorepo folder layout (`apps/web`, `backend`, `contracts`, `crates`, `tests`).
+* Show contributor summary slide or terminal git log.
+
+#### 🗣️ Spoken Voiceover (English):
+> "Engineering an ecosystem of this magnitude requires strict version control discipline. Our entire monorepo is hosted publicly on GitHub at `muhtasim-cs/videogm`. 
+> 
+> Throughout the semester, Team **TORONGO_DHARA** maintained a modular Git workflow with continuous code reviews. Here is the individual contribution breakdown of our four members:
+> 
+> 1. **Muhtasim (Lead Software Architect & Backend Engineer)**: Architected the monorepo, built the NestJS and Express REST microservices, engineered the dual JWT and Web3 nonce authentication system, wrote and deployed the Base Sepolia Solidity smart contracts, built the Surveillance Hub, and created the automated 26-point test engine.
+> 2. **MD. Jahidul Islam Jony (Agricultural Producer / Domain & Operations Lead)**: Formulated the Shariah-compliant Mudarabah financial models under AAOIFI Standard 13, designed the agricultural crop lifecycles for Bogura potato and Sylhet rice cohorts, and defined satellite NDVI risk thresholds.
+> 3. **Shamia Akhter Tasfi (Frontend Lead & UI/UX Architect)**: Engineered our multi-portal design system using responsive CSS and Plus Jakarta Sans typography, built the 30-project investor directory, interactive return calculators, village marketplace with real-time cart drawer, and the Bondhon AI Assistant.
 > 4. **Partha (Database & Ledger Architect)**: Designed the normalized PostgreSQL 16 relational database schema using Prisma ORM, engineered the GAAP-compliant double-entry ledger reconciliation engine, and established server audit trail persistence."
 
 ---
 
-### ⏱️ SECTION 4: LIVE AUTOMATED TESTING DEMONSTRATION (08:30 – 09:45)
-**Goal:** Directly answer the supervisor's key question: *"Can you prove that the solution works?"* by running the test suite live on camera.
+### ⏱️ SECTION 8: LIVE AUTOMATED TESTING DEMONSTRATION (08:45 – 09:45)
+**Objective:** Answer the final evaluation question: *"Can you prove that the solution works?"* by executing all 26 test cases live on screen.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **08:30:** Open VS Code terminal in full view.
+* **08:45:** Bring VS Code terminal to full view.
 * Type: `npm test` (or `node tests/run-all-tests.mjs`) and press **Enter**.
-* Watch the green checkmarks stream across the screen.
-* Point out:
-  - Suite 1: Dual-Auth (9 passed)
-  - Suite 2: Live Backend REST (6 passed)
-  - Suite 3: Surveillance Hub (3 passed)
-  - Suite 4: Multi-Role Identity & Chatbot (4 passed)
-  - Suite 5: Base Sepolia Smart Contracts (4 passed)
-* **09:15:** Switch to `TEST_CASES.md` in VS Code, showing the formal 26/26 QA scorecard and documented test invariants.
+* Watch all 26 tests pass in real time with green checkmarks.
+* Open [`TEST_CASES.md`](file:///d:/oneGRAMBONDHONE_by-team-TORONGO_DHARA-main/TEST_CASES.md) in the editor and highlight the 5 test suites.
 
 #### 🗣️ Spoken Voiceover (English):
 > "To answer the ultimate engineering question: **Can we prove that the solution works?**
 > 
-> Let us run our automated ecosystem test suite live in the terminal using `npm test`.
+> Let us execute our automated ecosystem test suite live in the terminal using `npm test`.
 > 
-> *[Pause 2 seconds as tests execute and pass]*
+> *[Pause 2 seconds as green checkmarks appear]*
 > 
-> In less than 200 milliseconds, **26 out of 26 test cases execute with a 100% pass rate** across all five system suites:
-> - **Suite 1** verifies our cryptographic dual-authentication, bcrypt password salting, JWT token rotation, and EVM wallet signature verification.
-> - **Suite 2** confirms our live REST endpoints, Mudarabah deal retrieval, and mock bKash and Nagad payment commitments.
-> - **Suite 3** tests our live Surveillance Hub telemetry and inter-role communications bus.
-> - **Suite 4** proves that unauthenticated users are blocked from unauthorized investments until KYC verification is approved.
-> - And **Suite 5** validates our Base Sepolia Solidity smart contracts, confirming zero-balance invariant locks and 65/35 profit distribution mechanics.
+> In under 200 milliseconds, **26 out of 26 test cases execute with a 100% pass rate** across all five system suites:
+> - **Suite 1 (Dual-Auth & Cryptography)**: Validates bcrypt password salting, JWT token rotation, and EVM wallet digital signature verification.
+> - **Suite 2 (Live Backend REST & Agri-Cohorts)**: Confirms live deal retrieval, Base Sepolia connectivity, and mock bKash/Nagad escrow commitments.
+> - **Suite 3 (Surveillance Hub & Telemetry)**: Verifies the live diagnostics dashboard and inter-role event bus.
+> - **Suite 4 (Multi-Role Identity & KYC Gatekeeping)**: Proves that unauthorized guest users are strictly blocked from investing until biometric KYC approval.
+> - **Suite 5 (Base Sepolia Smart Contracts)**: Verifies contract invariants, escrow locking, and 65/35 profit distribution mechanics.
 > 
-> Every test case is documented with input parameters, expected HTTP codes, and latency metrics in our comprehensive `TEST_CASES.md` report."
+> Every test case, expected HTTP response, and latency metric is formally documented in our `TEST_CASES.md` report."
 
 ---
 
-### ⏱️ SECTION 5: CONCLUSION & IMPACT (09:45 – 10:00)
-**Goal:** Deliver a sharp, memorable finish, mention UN SDGs, and thank the instructors within the 10-minute limit.
+### ⏱️ SECTION 9: CONCLUSION & FINAL SIGN-OFF (09:45 – 10:00)
+**Objective:** Deliver an impactful, confident conclusion within the 10-minute limit.
 
 #### 🖥️ Visual Cue / স্ক্রিন অ্যাকশন:
-* **09:45:** Switch back to `http://localhost:5173/` or show a slide displaying the UN SDG Badges (SDG 1: No Poverty, SDG 2: Zero Hunger, SDG 8: Decent Work, SDG 9: Innovation, SDG 13: Climate Action).
+* **09:45:** Switch back to `http://localhost:5173/` or show a slide displaying Team TORONGO_DHARA and UN SDG badges.
 
 #### 🗣️ Spoken Voiceover (English):
-> "In summary, **GramBandhan** demonstrates that modern software engineering can dismantle centuries of predatory rural debt. By uniting Shariah equity finance, AI remote sensing, and blockchain transparency, we provide smallholder farmers with dignity, financial security, and direct market access.
+> "In conclusion, **GramBandhan** proves that ethical software engineering can dismantle centuries of predatory rural debt. By uniting Shariah equity finance, AI remote sensing, and blockchain transparency, we provide smallholder farmers with dignity, financial security, and direct market access.
 > 
-> Thank you to our course instructor and respected evaluators for your guidance throughout this journey. We are now open for your questions and viva evaluation."
+> Thank you to our respected course instructors and evaluators. We are now open for your questions and viva defense."
 
 ---
 
-## 🎯 Recording & Presentation Pro-Tips (How to Win CSE Project Show)
+## 🎯 Pre-Recording Checklist for the Presenter
 
-1. **Screen Resolution**: Set display to **1920×1080 (1080p)**. Zoom browser to **100%** or **110%** so code and text are crisp and legible.
-2. **Audio Setup**: Use a headset or condenser microphone in a quiet room. Speak at a confident, steady, enthusiastic pace.
-3. **Pre-flight Check Before Hitting Record**:
-   - Ensure backend is running: `node backend/dev-server.mjs` (listening on port `3001`).
-   - Ensure frontend is running: `npm run dev` (listening on port `5173`).
-   - Have browser tabs pre-arranged in order:
-     - Tab 1: `http://localhost:5173/`
-     - Tab 2: `http://localhost:5173/investor_projects.html`
-     - Tab 3: `http://localhost:5173/investor_airisk.html`
-     - Tab 4: `http://localhost:5173/Farmer/farmer.html`
-     - Tab 5: `http://localhost:5173/marketplace.html`
-     - Tab 6: `http://localhost:5173/investor_financials.html`
-     - Tab 7: `http://localhost:3001/surveillance`
-     - Tab 8: `https://github.com/muhtasim-cs/videogm`
-     - Terminal: Prepared in root directory ready to run `npm test`.
-4. **Adherence to Teacher's Instructions**:
-   - Total time: **9 minutes 50 seconds to 9 minutes 58 seconds** (Never exceed 10:00).
-   - Only 1 group representative needs to upload the video to Google Drive and submit the official form before the deadline.
+1. **Browser Tab Order (Keep these open in Chrome before recording):**
+   - Tab 1: `http://localhost:5173/` (Landing Page)
+   - Tab 2: `http://localhost:5173/investor_projects.html` (Projects & Calculator)
+   - Tab 3: `http://localhost:5173/investor_financials.html` (Ledger & Escrow)
+   - Tab 4: `http://localhost:5173/investor_airisk.html` (AI Satellite NDVI)
+   - Tab 5: `http://localhost:5173/Farmer/farmer.html` (Farmer Portal)
+   - Tab 6: `http://localhost:5173/marketplace.html` (Village Marketplace)
+   - Tab 7: `http://localhost:3001/surveillance` (Backend Surveillance Hub)
+   - Tab 8: `https://github.com/muhtasim-cs/videogm` (GitHub Repo)
+   - Tab 9: VS Code (Terminal ready with `npm test`, open to `TEST_CASES.md`)
+2. **Terminal Ready**: Keep the terminal opened in the root directory so typing `npm test` immediately shows the green test suite.
+3. **Pacing**: Speak smoothly and naturally. The script has been timed for an average talking speed of 130–140 words per minute, easily fitting within **9 minutes 45 seconds to 9 minutes 55 seconds**.
